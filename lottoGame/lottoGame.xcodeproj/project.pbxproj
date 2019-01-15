@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDF2319721ED69420017EC67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF2319621ED69420017EC67 /* AppDelegate.swift */; };
+		FDF2319921ED69420017EC67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF2319821ED69420017EC67 /* ViewController.swift */; };
+		FDF2319C21ED69420017EC67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF2319A21ED69420017EC67 /* Main.storyboard */; };
+		FDF2319E21ED69440017EC67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF2319D21ED69440017EC67 /* Assets.xcassets */; };
+		FDF231A121ED69440017EC67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF2319F21ED69440017EC67 /* LaunchScreen.storyboard */; };
+		FDF231AC21ED69440017EC67 /* lottoGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF231AB21ED69440017EC67 /* lottoGameTests.swift */; };
+		FDF231B721ED69440017EC67 /* lottoGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF231B621ED69440017EC67 /* lottoGameUITests.swift */; };
+		FDF231C521ED78640017EC67 /* LuckyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF231C421ED78640017EC67 /* LuckyNumber.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDF231A821ED69440017EC67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDF2318B21ED69420017EC67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDF2319221ED69420017EC67;
+			remoteInfo = lottoGame;
+		};
+		FDF231B321ED69440017EC67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDF2318B21ED69420017EC67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDF2319221ED69420017EC67;
+			remoteInfo = lottoGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDF2319321ED69420017EC67 /* lottoGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lottoGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF2319621ED69420017EC67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDF2319821ED69420017EC67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDF2319B21ED69420017EC67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDF2319D21ED69440017EC67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDF231A021ED69440017EC67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDF231A221ED69440017EC67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDF231A721ED69440017EC67 /* lottoGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lottoGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF231AB21ED69440017EC67 /* lottoGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lottoGameTests.swift; sourceTree = "<group>"; };
+		FDF231AD21ED69440017EC67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDF231B221ED69440017EC67 /* lottoGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lottoGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF231B621ED69440017EC67 /* lottoGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lottoGameUITests.swift; sourceTree = "<group>"; };
+		FDF231B821ED69440017EC67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDF231C421ED78640017EC67 /* LuckyNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuckyNumber.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDF2319021ED69420017EC67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF231A421ED69440017EC67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF231AF21ED69440017EC67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDF2318A21ED69420017EC67 = {
+			isa = PBXGroup;
+			children = (
+				FDF2319521ED69420017EC67 /* lottoGame */,
+				FDF231AA21ED69440017EC67 /* lottoGameTests */,
+				FDF231B521ED69440017EC67 /* lottoGameUITests */,
+				FDF2319421ED69420017EC67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDF2319421ED69420017EC67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDF2319321ED69420017EC67 /* lottoGame.app */,
+				FDF231A721ED69440017EC67 /* lottoGameTests.xctest */,
+				FDF231B221ED69440017EC67 /* lottoGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDF2319521ED69420017EC67 /* lottoGame */ = {
+			isa = PBXGroup;
+			children = (
+				FDF2319621ED69420017EC67 /* AppDelegate.swift */,
+				FDF2319821ED69420017EC67 /* ViewController.swift */,
+				FDF231C421ED78640017EC67 /* LuckyNumber.swift */,
+				FDF2319A21ED69420017EC67 /* Main.storyboard */,
+				FDF2319D21ED69440017EC67 /* Assets.xcassets */,
+				FDF2319F21ED69440017EC67 /* LaunchScreen.storyboard */,
+				FDF231A221ED69440017EC67 /* Info.plist */,
+			);
+			path = lottoGame;
+			sourceTree = "<group>";
+		};
+		FDF231AA21ED69440017EC67 /* lottoGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDF231AB21ED69440017EC67 /* lottoGameTests.swift */,
+				FDF231AD21ED69440017EC67 /* Info.plist */,
+			);
+			path = lottoGameTests;
+			sourceTree = "<group>";
+		};
+		FDF231B521ED69440017EC67 /* lottoGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDF231B621ED69440017EC67 /* lottoGameUITests.swift */,
+				FDF231B821ED69440017EC67 /* Info.plist */,
+			);
+			path = lottoGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDF2319221ED69420017EC67 /* lottoGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDF231BB21ED69440017EC67 /* Build configuration list for PBXNativeTarget "lottoGame" */;
+			buildPhases = (
+				FDF2318F21ED69420017EC67 /* Sources */,
+				FDF2319021ED69420017EC67 /* Frameworks */,
+				FDF2319121ED69420017EC67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lottoGame;
+			productName = lottoGame;
+			productReference = FDF2319321ED69420017EC67 /* lottoGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDF231A621ED69440017EC67 /* lottoGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDF231BE21ED69440017EC67 /* Build configuration list for PBXNativeTarget "lottoGameTests" */;
+			buildPhases = (
+				FDF231A321ED69440017EC67 /* Sources */,
+				FDF231A421ED69440017EC67 /* Frameworks */,
+				FDF231A521ED69440017EC67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDF231A921ED69440017EC67 /* PBXTargetDependency */,
+			);
+			name = lottoGameTests;
+			productName = lottoGameTests;
+			productReference = FDF231A721ED69440017EC67 /* lottoGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDF231B121ED69440017EC67 /* lottoGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDF231C121ED69440017EC67 /* Build configuration list for PBXNativeTarget "lottoGameUITests" */;
+			buildPhases = (
+				FDF231AE21ED69440017EC67 /* Sources */,
+				FDF231AF21ED69440017EC67 /* Frameworks */,
+				FDF231B021ED69440017EC67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDF231B421ED69440017EC67 /* PBXTargetDependency */,
+			);
+			name = lottoGameUITests;
+			productName = lottoGameUITests;
+			productReference = FDF231B221ED69440017EC67 /* lottoGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDF2318B21ED69420017EC67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Eliana Boado";
+				TargetAttributes = {
+					FDF2319221ED69420017EC67 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					FDF231A621ED69440017EC67 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FDF2319221ED69420017EC67;
+					};
+					FDF231B121ED69440017EC67 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FDF2319221ED69420017EC67;
+					};
+				};
+			};
+			buildConfigurationList = FDF2318E21ED69420017EC67 /* Build configuration list for PBXProject "lottoGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDF2318A21ED69420017EC67;
+			productRefGroup = FDF2319421ED69420017EC67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDF2319221ED69420017EC67 /* lottoGame */,
+				FDF231A621ED69440017EC67 /* lottoGameTests */,
+				FDF231B121ED69440017EC67 /* lottoGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDF2319121ED69420017EC67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF231A121ED69440017EC67 /* LaunchScreen.storyboard in Resources */,
+				FDF2319E21ED69440017EC67 /* Assets.xcassets in Resources */,
+				FDF2319C21ED69420017EC67 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF231A521ED69440017EC67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF231B021ED69440017EC67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDF2318F21ED69420017EC67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF2319921ED69420017EC67 /* ViewController.swift in Sources */,
+				FDF2319721ED69420017EC67 /* AppDelegate.swift in Sources */,
+				FDF231C521ED78640017EC67 /* LuckyNumber.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF231A321ED69440017EC67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF231AC21ED69440017EC67 /* lottoGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF231AE21ED69440017EC67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF231B721ED69440017EC67 /* lottoGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDF231A921ED69440017EC67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDF2319221ED69420017EC67 /* lottoGame */;
+			targetProxy = FDF231A821ED69440017EC67 /* PBXContainerItemProxy */;
+		};
+		FDF231B421ED69440017EC67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDF2319221ED69420017EC67 /* lottoGame */;
+			targetProxy = FDF231B321ED69440017EC67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDF2319A21ED69420017EC67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDF2319B21ED69420017EC67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDF2319F21ED69440017EC67 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDF231A021ED69440017EC67 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDF231B921ED69440017EC67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDF231BA21ED69440017EC67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDF231BC21ED69440017EC67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = lottoGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cuny.bmcc.lottoGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDF231BD21ED69440017EC67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = lottoGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cuny.bmcc.lottoGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FDF231BF21ED69440017EC67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lottoGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cuny.bmcc.lottoGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lottoGame.app/lottoGame";
+			};
+			name = Debug;
+		};
+		FDF231C021ED69440017EC67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lottoGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cuny.bmcc.lottoGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lottoGame.app/lottoGame";
+			};
+			name = Release;
+		};
+		FDF231C221ED69440017EC67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lottoGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cuny.bmcc.lottoGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lottoGame;
+			};
+			name = Debug;
+		};
+		FDF231C321ED69440017EC67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lottoGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cuny.bmcc.lottoGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lottoGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDF2318E21ED69420017EC67 /* Build configuration list for PBXProject "lottoGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF231B921ED69440017EC67 /* Debug */,
+				FDF231BA21ED69440017EC67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDF231BB21ED69440017EC67 /* Build configuration list for PBXNativeTarget "lottoGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF231BC21ED69440017EC67 /* Debug */,
+				FDF231BD21ED69440017EC67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDF231BE21ED69440017EC67 /* Build configuration list for PBXNativeTarget "lottoGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF231BF21ED69440017EC67 /* Debug */,
+				FDF231C021ED69440017EC67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDF231C121ED69440017EC67 /* Build configuration list for PBXNativeTarget "lottoGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF231C221ED69440017EC67 /* Debug */,
+				FDF231C321ED69440017EC67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDF2318B21ED69420017EC67 /* Project object */;
+}

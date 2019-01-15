@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="lottoGame" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="4if-s4-2X7">
+                                <rect key="frame" x="19" y="306" width="337.5" height="55"/>
+                                <subviews>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4UP-Kr-8Mb">
+                                        <rect key="frame" x="0.0" y="0.0" width="49.5" height="55"/>
+                                        <color key="backgroundColor" red="1" green="0.99116898580000001" blue="0.34361745379999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                        <state key="normal" title="01"/>
+                                        <connections>
+                                            <action selector="pickNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ryf-tW-gnY"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hKs-Fb-WCe">
+                                        <rect key="frame" x="57.5" y="0.0" width="49.5" height="55"/>
+                                        <color key="backgroundColor" red="1" green="0.99116898580000001" blue="0.34361745379999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                        <state key="normal" title="02"/>
+                                        <connections>
+                                            <action selector="pickNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6II-Sr-uJE"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bY7-Hh-Jef">
+                                        <rect key="frame" x="115" y="0.0" width="49.5" height="55"/>
+                                        <color key="backgroundColor" red="1" green="0.99116898580000001" blue="0.34361745379999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                        <state key="normal" title="03"/>
+                                        <connections>
+                                            <action selector="pickNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CPN-pu-VKd"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Osz-gl-ViD">
+                                        <rect key="frame" x="172.5" y="0.0" width="49.5" height="55"/>
+                                        <color key="backgroundColor" red="1" green="0.99116898580000001" blue="0.34361745379999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                        <state key="normal" title="04"/>
+                                        <connections>
+                                            <action selector="pickNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ucL-Ug-470"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l1f-rk-h4Y">
+                                        <rect key="frame" x="230" y="0.0" width="49.5" height="55"/>
+                                        <color key="backgroundColor" red="1" green="0.99116898580000001" blue="0.34361745379999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                        <state key="normal" title="05"/>
+                                        <connections>
+                                            <action selector="pickNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pd1-6D-vXV"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NR1-6T-upg">
+                                        <rect key="frame" x="287.5" y="0.0" width="50" height="55"/>
+                                        <color key="backgroundColor" red="1" green="0.99116898580000001" blue="0.34361745379999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                        <state key="normal" title="06"/>
+                                        <connections>
+                                            <action selector="pickNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8WP-gw-Xkr"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="4if-s4-2X7" secondAttribute="height" multiplier="6.1" id="bvk-S5-1ir"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lucky Lotto Picker" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gSW-d2-fIc">
+                                <rect key="frame" x="59" y="262" width="257.5" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Max Value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="daI-2W-FgL">
+                                <rect key="frame" x="62" y="381" width="78.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="t2z-Cs-cgH">
+                                <rect key="frame" x="69.5" y="409.5" width="63" height="29"/>
+                                <segments>
+                                    <segment title="49"/>
+                                    <segment title="86"/>
+                                </segments>
+                                <connections>
+                                    <action selector="maxValue:" destination="BYZ-38-t0r" eventType="valueChanged" id="UYc-9b-aen"/>
+                                </connections>
+                            </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mBY-Lq-ITT">
+                                <rect key="frame" x="244" y="402" width="60" height="48"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <state key="normal" title="Pick"/>
+                                <connections>
+                                    <action selector="pickAll:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A30-1O-IzG"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.69307656900000003" green="0.92909496989999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                        <constraints>
+                            <constraint firstItem="4if-s4-2X7" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.9" id="3I2-HB-8V3"/>
+                            <constraint firstItem="4if-s4-2X7" firstAttribute="top" secondItem="gSW-d2-fIc" secondAttribute="bottom" constant="8" id="3UP-wU-OF0"/>
+                            <constraint firstItem="gSW-d2-fIc" firstAttribute="centerX" secondItem="4if-s4-2X7" secondAttribute="centerX" id="FIv-5O-i2E"/>
+                            <constraint firstItem="4if-s4-2X7" firstAttribute="top" secondItem="gSW-d2-fIc" secondAttribute="bottom" constant="8" id="H0Z-5c-d5u"/>
+                            <constraint firstItem="t2z-Cs-cgH" firstAttribute="top" secondItem="daI-2W-FgL" secondAttribute="bottom" constant="8" id="JSn-Vm-CLt"/>
+                            <constraint firstItem="mBY-Lq-ITT" firstAttribute="centerX" secondItem="l1f-rk-h4Y" secondAttribute="centerX" id="TcU-FP-hn2"/>
+                            <constraint firstItem="daI-2W-FgL" firstAttribute="top" secondItem="4if-s4-2X7" secondAttribute="bottom" constant="20" id="Z7o-cc-OHp"/>
+                            <constraint firstItem="daI-2W-FgL" firstAttribute="centerX" secondItem="hKs-Fb-WCe" secondAttribute="centerX" id="ZHm-o4-wfA"/>
+                            <constraint firstItem="4if-s4-2X7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nZP-3O-8jt"/>
+                            <constraint firstItem="mBY-Lq-ITT" firstAttribute="centerY" secondItem="t2z-Cs-cgH" secondAttribute="centerY" constant="2.5" id="reT-lK-9ec"/>
+                            <constraint firstItem="4if-s4-2X7" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="uJi-RC-v6R"/>
+                            <constraint firstItem="t2z-Cs-cgH" firstAttribute="centerX" secondItem="daI-2W-FgL" secondAttribute="centerX" id="zwb-jo-oqF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="buttonStackView" destination="4if-s4-2X7" id="oYF-r7-uZN"/>
+                        <outlet property="maxValueSegment" destination="t2z-Cs-cgH" id="al4-pg-Ww9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
